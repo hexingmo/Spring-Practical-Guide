@@ -7,6 +7,9 @@
 	<artifactId>spring-practical-guide</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
+	<modules>
+		<module>testing</module>
+	</modules>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -17,9 +20,9 @@
 	<description>Spring Practical Guide - 通过丰富的示例和实战案例，全面演示和讲解 Spring 框架的各种核心技术与最佳实践</description>
 
 	<properties>
-		<java.version>21</java.version>
-		<maven.compiler.source>21</maven.compiler.source>
-		<maven.compiler.target>21</maven.compiler.target>
+		<java.version>17</java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 
 	<build>
